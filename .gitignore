@@ -1,0 +1,6 @@
+
+.DS_Store
+log/
+save/
+__pycache__/
+alfred/

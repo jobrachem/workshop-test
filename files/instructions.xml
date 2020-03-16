@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instr>
+    <iExample>
+        <!-- This is a comment field that is not read in, but is only used to explain entries. -->
+        Any text can be read in here. Spaces and tabs, as well as line breaks are also read in!
+
+        The object names assigned here (within the comparator characters above and below the texts) are interpreted by alfred and used for assignment. They can therefore not be changed without further ado! Every change to object names must also be taken into account in the experimental scripts!
+
+        The header of the XML file should remain unchanged, unless a different character encoding is used! The default encoding is utf-8.
+
+        It is possible to use HTML tags in the individual instructions. If this should happen, a special tag must be placed around the instruction text, which looks like this:
+
+        <![CDATA[    Within the square brackets, HTML tags can be used, which alfred then recognizes as well.  ]]>
+
+        This sample instruction should not be deleted!
+    </iExample>
+
+    <text_b>
+        This text is read in from instructions.xml.
+    </text_b>
+
+</instr>
